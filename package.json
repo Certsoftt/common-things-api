@@ -1,0 +1,44 @@
+{
+  "name": "@certsoftt/common-things-api",
+  "version": "1.0.0",
+  "type": "module",
+  "module": "dist/index.esm.js",
+  "description": "Customizable Components that can make calls to many endpoints and api handling the logical aspect while you just decide the data to be fetched and how it should be consumed",
+  "main": "/dist/index.js",
+  "scripts": {
+    "build": "rollup -c",
+    "prebuild": "rimraf src && rimraf dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Certsoftt/common-things-api.git"
+  },
+  "publishConfig": {
+    "@certsoftt:registry": "https://npm.pkg.github.com"
+  },
+  "keywords": [
+    "api",
+    "endpoints",
+    "common things"
+  ],
+  "author": "certsoftt",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Certsoftt/common-things-api/issues"
+  },
+  "files": ["dist"],
+  "homepage": "https://github.com/Certsoftt/common-things-api#readme",
+  "devDependencies": {
+    "@babel/plugin-transform-runtime": "^7.26.10",
+    "@babel/preset-env": "^7.26.9",
+    "@babel/preset-react": "^7.26.3",
+    "@babel/runtime": "^7.27.0",
+    "@rollup/plugin-babel": "^6.0.4",
+    "@rollup/plugin-node-resolve": "^16.0.1",
+    "@rollup/plugin-terser": "^0.4.4",
+    "rollup": "^2.79.2",
+    "rollup-plugin-filesize": "^10.0.0",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-postcss": "^4.0.2"
+  }
+}
