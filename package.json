@@ -26,7 +26,9 @@
   "bugs": {
     "url": "https://github.com/Certsoftt/common-things-api/issues"
   },
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "homepage": "https://github.com/Certsoftt/common-things-api#readme",
   "devDependencies": {
     "@babel/plugin-transform-runtime": "^7.26.10",
@@ -36,6 +38,8 @@
     "@rollup/plugin-babel": "^6.0.4",
     "@rollup/plugin-node-resolve": "^16.0.1",
     "@rollup/plugin-terser": "^0.4.4",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
     "rollup": "^2.79.2",
     "rollup-plugin-filesize": "^10.0.0",
     "rollup-plugin-peer-deps-external": "^2.2.4",
