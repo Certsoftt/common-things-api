@@ -6,8 +6,7 @@
   "description": "Customizable Components that can make calls to many endpoints and api handling the logical aspect while you just decide the data to be fetched and how it should be consumed",
   "main": "/dist/index.js",
   "scripts": {
-    "build": "rollup -c",
-    "prebuild": "rimraf src && rimraf dist"
+    "build": "rollup -c"
   },
   "repository": {
     "type": "git",

@@ -36,6 +36,29 @@ Begin by
 
 You can re-use this for whatever you want or to build something cool with it.
 
+  - Using the `Get class` to fetch data.<br/>
+  For instance, fetching `posts` from `jsonplaceholder api` 
+
+  ```js
+  let posts = new Get("posts").api()
+  ```
+
+  this fetches posts from jsonplaceholder api. The `api()` accepts 1 optional argument which is your endpoint query. For instance, fetching a single post with an `id` of `50`
+
+  ```js
+  let post = new Get("posts").api("?id=50")
+  ``` 
+  or programmatically:
+
+  ```js
+  let id = value // dynamic value
+  let post = new Get("posts").api(`?id=${value}`)
+  ```
+
 ## License
 
 Licensed under the MIT license.
+
+## Documentation
+
+Coming soon

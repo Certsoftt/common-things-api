@@ -1,12 +1,12 @@
 import {babel} from "@rollup/plugin-babel"
 import postcss from "rollup-plugin-postcss"
-import filesize from "rollup-plugin-filesize"
+// import filesize from "rollup-plugin-filesize"
 import external from "rollup-plugin-peer-deps-external"
 import resolve from "@rollup/plugin-node-resolve"
-import {terser} from "@rollup/plugin-terser"
+// import {terser} from "@rollup/plugin-terser"
 
 const config={
-    input: "/src/index.js",
+    input: "src/index.jsx",
     output:[
         {
             file: 'dist/index.esm.js',
@@ -32,7 +32,7 @@ const config={
         }),
         external(),
         resolve(),
-        terser(),
+        // terser(),
         postcss({
             plugins:[],
             minimize:true
