@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-function Get(input){
+export function Get(input){
     this.input = input
     this.response;
     this.data;
