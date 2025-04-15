@@ -35,11 +35,25 @@ Begin by
 ## Usage
 
 You can re-use this for whatever you want or to build something cool with it.
+## install package:
+#### Install from the command line:
+```suggestion
+$ npm install @certsoftt/common-things-api@1.0.0
+or
+$ npm i common-things-api
+```
+#### Install via package.json:
+```suggestion
+"@certsoftt/common-things-api": "1.0.0"
+```
 
   - Using the `Get class` to fetch data.<br/>
   For instance, fetching `posts` from `jsonplaceholder api` 
 
   ```js
+  import {Get} from "common-things-api"
+  //or import {Get} from "@certsoftt/common-things-api"
+
   let posts = new Get("posts").api()
   ```
 
@@ -52,7 +66,7 @@ You can re-use this for whatever you want or to build something cool with it.
 
   ```js
   let id = value // dynamic value
-  let post = new Get("posts").api(`?id=${value}`)
+  let post = new Get("posts").api(`?id=${id}`)
   ```
 
 ## License
