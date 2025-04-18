@@ -13,6 +13,7 @@
 - [IP Geolocation API](https://ip-api.com/)
 - [Public IP](https://api.ipify.org/)
 - [Recipe API](https://www.themealdb.com/api.php)
+- [Movie API](https://yts.mx/api/v2/movie_details.json)
 
 Let grow the list together by contributing. 
 
@@ -75,4 +76,4 @@ Licensed under the MIT license.
 
 ## Documentation
 
-Coming soon
+visit [documentation on common-things-api](https://certsoftt.github.io/common-things-api)
