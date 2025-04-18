@@ -13,6 +13,7 @@
 - [IP Geolocation API](https://ip-api.com/)
 - [Public IP](https://api.ipify.org/)
 - [Recipe API](https://www.themealdb.com/api.php)
+- [Movie API](https://yts.mx/api/v2/movie_details.json)
 
 Let grow the list together by contributing. 
 
