@@ -6,7 +6,7 @@ export function Get(input){
     this.data;
 }
 
-Get.prototype.api = async function (endpoint=""){
+Get.prototype.api = async function (endpoint="",params=""){
     const [fetch, setFetch] = useState()
     if(this.input == "posts"){
         if(endpoint == ""){
@@ -20,6 +20,21 @@ Get.prototype.api = async function (endpoint=""){
                 setFetch(result)
             })
         }
+    }
+    if(this.input == "repos"){
+        if(params !== "" && endpoint === ""){
+            this.response = await fetch(`https://api.github.com/users/${params}/${this.input}`)
+            this.data = this.response.json().then(result=>{
+                setFetch(result)
+            })
+        }else if(params !== "" && endpoint !== ""){
+            this.response = await fetch(`https://api.github.com/users/${params}/${this.input}/${endpoint}`)
+            this.data = this.response.json().then(result=>{
+                setFetch(result)
+            })
+        }else{
+            console.log(`set repo username as it is a required argument`)
+        } 
     }
     return fetch
 }
