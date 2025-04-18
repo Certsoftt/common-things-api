@@ -1,18 +1,19 @@
 ## Documentation
 
-`Common Things API` is an open-source package that looks forward in providing a developer-friendly experience when making network request as it provides tons of api and pre-configuration of each api that can be consumed with just a single line of code without having you to craft out a logical network request saving time and lines of code. A product of lots of commonly used apis as listed below:
+***Common Things API*** is an open-source package that looks forward in providing a developer-friendly experience when making network request as it provides tons of api and pre-configuration of each api that can be consumed with just a single line of code without having you to craft out a logical network request saving time and lines of code. A product of lots of commonly used apis as listed below:
 
 
-- [Jsonplaceholder](https://jsonplaceholder.typicode.com/)
-- [GitHub](https://docs.github.com/en/rest/repos)
-- [Movie API](https://yts.mx/api/v2/movie_details.json)
+- [Jsonplaceholder](#fetching-posts-from-jsonplaceholder-api)
+- [GitHub](#fetching-repos-from-git-repo-api)
+- [Movie API](#fetching-movies-from-yts-api)
 
 Let grow the list together by contributing. 
 
 ## Usage
 
 You can re-use this for whatever you want or to build something cool with it.
-## install package:
+
+## Install Package:
 #### Install from the command line:
 ```suggestion
 $ npm install @certsoftt/common-things-api@1.0.0
