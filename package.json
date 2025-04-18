@@ -1,6 +1,6 @@
 {
   "name": "@certsoftt/common-things-api",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "module": "dist/index.esm.js",
   "description": "Customizable Components that can make calls to many endpoints and api handling the logical aspect while you just decide the data to be fetched and how it should be consumed",
   "main": "/dist/index.js",
