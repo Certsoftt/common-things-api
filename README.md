@@ -75,4 +75,4 @@ Licensed under the MIT license.
 
 ## Documentation
 
-Coming soon
+visit [documentation on common-things-api](https://certsoftt.github.io/common-things-api)
